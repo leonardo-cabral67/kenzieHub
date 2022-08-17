@@ -1,4 +1,4 @@
-import { AddTechs, Container, TechsEmpty } from "./styles";
+import { AddTechs, Container, ModalCreateTech, TechsEmpty } from "./styles";
 import { TechsList } from "../TechsList";
 
 import Modal from "react-modal";
@@ -22,6 +22,10 @@ export const TechsContainer = ({ users }) => {
       top: "50%",
       left: "50%",
       right: "auto",
+      bottom: "auto",
+      marginRight: "-50%",
+      transform: "translate(-50%, -50%)",
+      backgroundColor: "#343B41",
     },
   };
 
@@ -59,23 +63,32 @@ export const TechsContainer = ({ users }) => {
           </div>
         </button>
 
-        <Modal isOpen={createTech} onRequestClose={closeCreate}>
-          <form onSubmit={handleSubmit(onSubmit)}>
-            <Input
-              label="Tecnologia"
-              placeholder="insira a tecnologia"
-              type="text"
-              register={register}
-              name="title"
-              errors={errors.title?.message}
-            />
-            <select name="Select" {...register("status")}>
-              <option value="Iniciante">Iniciante</option>
-              <option value="Intermediário">Intermediário</option>
-              <option value="Avançado">Avançado</option>
-            </select>
-            <button type="submit">Criar</button>
-          </form>
+        <Modal
+          isOpen={createTech}
+          onRequestClose={closeCreate}
+          style={customStyles}
+        >
+          <ModalCreateTech>
+            <form onSubmit={handleSubmit(onSubmit)}>
+              <Input
+                label="Tecnologia"
+                placeholder="insira a tecnologia"
+                type="text"
+                register={register}
+                name="title"
+                errors={errors.title?.message}
+              />
+              <div className="selectContainer">
+                <label>Nível de habilidade</label>
+                <select name="Select" {...register("status")}>
+                  <option value="Iniciante">Iniciante</option>
+                  <option value="Intermediário">Intermediário</option>
+                  <option value="Avançado">Avançado</option>
+                </select>
+              </div>
+              <button type="submit">Criar</button>
+            </form>
+          </ModalCreateTech>
         </Modal>
       </AddTechs>
       <Container>

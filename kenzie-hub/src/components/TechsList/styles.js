@@ -38,7 +38,7 @@ export const List = styled.ul`
 export const FormContainer = styled.div`
   margin: 0 auto;
   width: 290px;
-  height: 200px;
+  height: 220px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -52,8 +52,16 @@ export const FormContainer = styled.div`
     gap: 30px;
   }
 
+  .TechName h2 {
+    margin-top: 11px;
+    margin-left: 4px;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
   input,
-  select {
+  select,
+  .TechName {
     height: 40px;
     font-weight: 400;
     font-size: 16px;
@@ -74,7 +82,7 @@ export const FormContainer = styled.div`
   }
 
   .ButtonDiv {
-    align-self: flex-start;
+    align-self: flex-end;
     width: 15px;
     height: 15px;
     padding: 6px;
@@ -99,10 +107,11 @@ export const FormContainer = styled.div`
   }
 
   .ExcluirESalvar {
-    margin-top: 8px;
+    margin-top: 6px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 10px;
   }
 
   .ExcluirESalvar button {

@@ -95,7 +95,7 @@ export const TechsList = ({ users }) => {
         style={customStyles}
       >
         <Techs>
-          <h2>Tecnologia detalhes</h2>
+          <h2>Tecnologia - detalhes</h2>
           <div className="ButtonDiv" onClick={modalUpdateClose}>
             <button>X</button>
           </div>
@@ -103,8 +103,10 @@ export const TechsList = ({ users }) => {
         <FormContainer>
           <form onSubmit={handleSubmit(updateTech)}>
             <div className="inputContainer">
-              <label>Nome do projeto</label>
-              <input value={modalData.title} />
+              <label>Nome da tecnologia</label>
+              <div className="TechName">
+                <h2>{modalData.title}</h2>
+              </div>
             </div>
             <div className="inputContainer">
               <label>Status</label>
