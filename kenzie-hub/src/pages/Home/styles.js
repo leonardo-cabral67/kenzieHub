@@ -60,4 +60,10 @@ export const HomeContainer = styled.div`
     font-size: 12px;
     color: var(--grey-1);
   }
+
+  @media (max-width: 400px) {
+    span {
+      width: 140px;
+    }
+  }
 `;
