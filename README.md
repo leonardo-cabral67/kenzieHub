@@ -1,6 +1,6 @@
 # KenzieHub
 
-<p>KenzieHub é um web app em que é porssível criar uma conta, entrar e listar tecnologias e o seu nível nelas (iniciante, intermediário, avançado), você é livre para escolher o nome da tecnologia e o nível.</p>
+<p>KenzieHub é um web app em que é possível criar uma conta, entrar e listar tecnologias e o seu nível nelas (iniciante, intermediário, avançado), você é livre para escolher o nome da tecnologia e o nível.</p>
 
 ## Acesse: <a href="https://kenzie-hub-leonardo-cabral67.vercel.app/">aqui</a>
 
