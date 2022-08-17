@@ -55,6 +55,6 @@
 
 
 ## Autor: Leonardo Cabral
-### Meu linkedin: <a href="https://www.linkedin.com/in/leonardo-cabral67">Acesse Aqui</a>
+### Meu linkedin: <a href="https://www.linkedin.com/in/leonardo-cabral67" target=_blank>Acesse Aqui</a>
 
 
