@@ -26,6 +26,10 @@ export const LoginContainer = styled.div`
     background-color: var(--grey-3);
   }
 
+  input {
+    background-color: var(--grey-2);
+  }
+
   span {
     color: var(--grey-1);
     font-size: 12px;

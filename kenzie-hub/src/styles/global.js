@@ -8,6 +8,11 @@ export default createGlobalStyle`
     outline: 0
   }
 
+  button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
   :root {
     --color-primary: #FF577F;
     --color--primary-focus: #FF427F;

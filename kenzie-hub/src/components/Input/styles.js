@@ -27,9 +27,10 @@ export const InputContainer = styled.div`
     height: 40px;
     border-radius: 4px;
 
+    margin-bottom: 20px;
+
     padding: 5px;
 
-    background-color: var(--grey-2);
     color: var(--grey-0);
 
     border: none;

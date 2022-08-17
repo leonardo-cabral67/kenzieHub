@@ -13,6 +13,10 @@ export const RegisterContainer = styled.div`
   justify-content: center;
   align-items: center;
 
+  input {
+    background-color: var(--grey-2);
+  }
+
   header {
     width: 90%;
     display: flex;

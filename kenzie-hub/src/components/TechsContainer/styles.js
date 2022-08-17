@@ -61,10 +61,6 @@ export const ModalCreateTech = styled.div`
     padding-bottom: 6px;
   }
 
-  form > input {
-    background-color: var(--grey-3);
-  }
-
   input,
   select {
     height: 40px;
