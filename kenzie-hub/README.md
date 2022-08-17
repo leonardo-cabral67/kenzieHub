@@ -6,24 +6,24 @@
 
 ## Layout - Mobile
 <div display=flex flex-direction=row>
-  <img margin=10px width=200px  src="https://github.com/leonardo-cabral67/kenzieHub/blob/main/kenzie-hub/assets/mobileRegister.gif"/>
-  <img margin=10px width=200px  src="https://github.com/leonardo-cabral67/kenzieHub/blob/main/kenzie-hub/assets/mobileLogin.png"/>
-  <img margin=10px width=200px  src="https://github.com/leonardo-cabral67/kenzieHub/blob/main/kenzie-hub/assets/mobileHome.gif"/>
+  <img margin=10px width=300px  src="https://github.com/leonardo-cabral67/kenzieHub/blob/main/kenzie-hub/assets/mobileRegister.gif"/>
+  <img margin=10px width=300px  src="https://github.com/leonardo-cabral67/kenzieHub/blob/main/kenzie-hub/assets/mobileLogin.png"/>
+  <img margin=10px width=300px  src="https://github.com/leonardo-cabral67/kenzieHub/blob/main/kenzie-hub/assets/mobileHome.gif"/>
 </div>
 
 ## Layout - Ipad
-<div>
-  <img margin=10px width=400px  src="https://github.com/leonardo-cabral67/kenzieHub/blob/main/kenzie-hub/assets/ipadRegister.png"/>
-  <img margin=10px width=400px  src="https://github.com/leonardo-cabral67/kenzieHub/blob/main/kenzie-hub/assets/ipadLogin.png"/>
-  <img margin=10px width=400px  src="https://github.com/leonardo-cabral67/kenzieHub/blob/main/kenzie-hub/assets/ipadHome.png"/>
+<div display=flex flex-direction=column>
+  <img margin=10px width=800px  src="https://github.com/leonardo-cabral67/kenzieHub/blob/main/kenzie-hub/assets/ipadRegister.png"/>
+  <img margin=10px width=800px  src="https://github.com/leonardo-cabral67/kenzieHub/blob/main/kenzie-hub/assets/ipadLogin.png"/>
+  <img margin=10px width=800px  src="https://github.com/leonardo-cabral67/kenzieHub/blob/main/kenzie-hub/assets/ipadHome.png"/>
 </div>
 
 
 ## Layout - Notebook
-<div display=flex flex-direction=row margin=auto>
-  <img margin=10px width=600px  src="https://github.com/leonardo-cabral67/kenzieHub/blob/main/kenzie-hub/assets/notebookHome.png"/>
-  <img margin=10px width=600px  src="https://github.com/leonardo-cabral67/kenzieHub/blob/main/kenzie-hub/assets/notebookLogin.png"/>
-  <img margin=10px width=600px  src="https://github.com/leonardo-cabral67/kenzieHub/blob/main/kenzie-hub/assets/notebookRegister.png"/>
+<div display=flex flex-direction=row>
+  <img margin=10px width=800px  src="https://github.com/leonardo-cabral67/kenzieHub/blob/main/kenzie-hub/assets/notebookHome.png"/>
+  <img margin=10px width=800px  src="https://github.com/leonardo-cabral67/kenzieHub/blob/main/kenzie-hub/assets/notebookLogin.png"/>
+  <img margin=10px width=800px  src="https://github.com/leonardo-cabral67/kenzieHub/blob/main/kenzie-hub/assets/notebookRegister.png"/>
 </div>
 
 
@@ -52,5 +52,9 @@
 - Criar Item da lista com nome da tecnologia e o nível
 - Editar Nível da tecnologia Criada
 - Log out
+
+
+## Autor: Leonardo Cabral
+### Meu linkedin: <a href="https://www.linkedin/in/leonardo-cabral67">Acesse Aqui</a>
 
 
